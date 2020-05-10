@@ -7,7 +7,7 @@ Java project for CS102
 ## Description 
 I took code and idea for this project from YouTube channel, 
 unfortunately author didn't put Github link of his project. 
-[Link for video](https://www.youtube.com/watch?v=K9qMm3JbOH0)
+![Link for video](https://www.youtube.com/watch?v=K9qMm3JbOH0)
 
 
 
