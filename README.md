@@ -14,7 +14,8 @@ unfortunately author didn't put Github link of his project.
 2. Game was finishing quickly, that's why I increased number of bricks and made them smaller size.
 Was 21 brick 3 row 7 column, become 32 brincks 4 row 8 column
 3. Changed colors of course
-4. Added "Score" near "Game Over"
+4. Added how many score got palyer near "Game Over"
+
 
 
 
