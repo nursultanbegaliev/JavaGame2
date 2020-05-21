@@ -8,6 +8,8 @@ import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import javax.swing.Timer;
 import java.awt.Graphics;
+import java.io.FileWriter;
+import java.io.IOException;
 
 public class Gameplay extends JPanel implements KeyListener, ActionListener{
     private boolean play = false;
@@ -187,6 +189,17 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
 
         if(e.getKeyCode() == KeyEvent.VK_ENTER) {
             if(!play) {
+                try
+                {
+                    String filename= "MyScores.txt";
+                    FileWriter fw = new FileWriter(filename,true); //the true will append the new data
+                    fw.write(" Score is "+ score);//appends the string to the file
+                    fw.close();
+                }
+                catch(IOException ioe)
+                {
+                    System.err.println("IOException: " + ioe.getMessage());
+                }
                 play = true;
                 ballposX = 120;
                 ballposY = 350;

@@ -33,7 +33,7 @@ public class Main {
                 
 
             }
-            myFile.write(" score is "+ myScore );
+
             myFile.close();
 
         }
