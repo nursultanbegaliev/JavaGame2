@@ -11,19 +11,20 @@ import java.awt.Graphics;
 
 public class Gameplay extends JPanel implements KeyListener, ActionListener{
     private boolean play = false;
-    private int score = 0;
+    public int score = 0;
+    public int scoreget = 0;
 
     private int totalBricks = 32;
 
     private Timer timer;
-    private int delay = 2;
+    private int delay = 5;
 
     private int playerX = 310;
 
     private int ballposX = 120;
     private int ballposY = 350;
-    private int ballXdir = -1;
-    private int ballYdir = -4;
+    private int ballXdir = -2;
+    private int ballYdir = -1;
 
     private MapGenerator map;
 
@@ -38,7 +39,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
 
     public void paint(Graphics g) {
         // background
-        g.setColor(Color.black);
+        g.setColor(Color.lightGray);
         g.fillRect(1,1,692,592);
 
         // borders
@@ -57,11 +58,11 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
         map.draw((Graphics2D)g);
 
         // the paddle
-        g.setColor(Color.green);
-        g.fillRect(playerX, 550, 100, 8);
+        g.setColor(Color.BLUE);
+        g.fillRect(playerX, 550, 120, 10);
 
         // the ball
-        g.setColor(Color.pink);
+        g.setColor(Color.RED);
         g.fillOval(ballposX, ballposY, 20,20);
 
         if(totalBricks <= 0) {
@@ -71,19 +72,20 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
             g.setColor(Color.RED);
             g.setFont(new Font("serif", Font.BOLD, 30));
             g.drawString("You Won!, Score: " + score, 260,300);
+            scoreget = score;
 
             g.setFont(new Font("serif", Font.BOLD, 20));
             g.drawString("Press Enter to Restart", 230, 350);
         }
 
-        if(ballposY > 570) {
+        if(ballposY > 569) {
             play = false;
             ballXdir = 0;
             ballYdir = 0;
             g.setColor(Color.RED);
             g.setFont(new Font("serif", Font.BOLD, 30));
             g.drawString("Game Over, Score: " + score, 190,300);
-
+            scoreget = score;
             g.setFont(new Font("serif", Font.BOLD, 20));
             g.drawString("Press Enter to Restart", 230, 350);
 
@@ -120,6 +122,8 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
                             map.setBrickValue(0,i,j);
                             totalBricks--;
                             score += 5;
+                            scoreget += 5;
+
 
                             if(ballposX + 19 <= brickRect.x || ballposX +1 >= brickRect.x + brickRect.width) {
                                 ballXdir = -ballXdir;
@@ -147,7 +151,11 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
         }
         repaint();
 
+
+
     }
+
+
 
     @Override
     public void keyTyped(KeyEvent e) {
@@ -187,7 +195,7 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
                 playerX = 310;
                 score = 0;
                 totalBricks = 21;
-                map = new MapGenerator(3,7);
+                map = new MapGenerator(4,8);
                 repaint();
             }
         }
@@ -205,7 +213,8 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener{
     }
 
 
-
+//    public boolean getScoreget() {
+//    }
 }
 
 
