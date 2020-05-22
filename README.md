@@ -97,5 +97,6 @@ Inorder to save score I use Button _Enter_ in class GamePlay.java
 
 ![Save score](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/myScoreProof.PNG)
 
-
+#### All classes
+![all classes](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/AllClasses.PNG)
 
