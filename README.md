@@ -61,11 +61,10 @@ unfortunately author didn't put Github link of his project.
 2. Game was finishing quickly, that's why I increased number of bricks and made them smaller size.
 Was 21 brick 3 row 7 column, become 32 brincks 4 row 8 column
 3. Changed colors of course
-4. And finally I added Function to input your name and after adding your name game will start.
-
-This is intended to write your name and score in "MyScores.txt" file.
+4. And finally I added function to input your name and get score, this information I put into file "MyScores.txt".
 
 ### How game looks like
 
-#### You have to input your name 
+#### You have to input your name, untill you input your name game won't start.
+![input your name]()
 
