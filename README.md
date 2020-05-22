@@ -88,7 +88,7 @@ Was 21 brick 3 row 7 column, become 32 brincks 4 row 8 column
 #### How I make to store name and score
 Inorder to save your name you have to write you name in terminal. And here is a code. 
 
-Here you also can see _Exception handling( If input will be unacceptable). 
+Here you also can see _Exception handling( If input will be unacceptable)_. 
 
 ![code for writing name](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/myScoreProof_2Main.PNG)
 
