@@ -4,7 +4,7 @@
 ## Project Proposal
 
 ### Title of the project 
-**Brick Breaker
+_Brick Breaker_**
 
 ### Topic addressed by the project
 
