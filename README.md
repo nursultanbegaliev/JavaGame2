@@ -66,5 +66,22 @@ Was 21 brick 3 row 7 column, become 32 brincks 4 row 8 column
 ### How game looks like
 
 #### You have to input your name, untill you input your name game won't start.
-![input your name]()
+
+![input your name](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/Terminal_1.PNG)
+
+#### Here is game
+
+![game appeared](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/Terminal_2.PNG)
+
+#### Game interface 
+
+![game interface](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/Game_GUI.PNG)
+
+![game interface2](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/Game_GUI_2.PNG)
+
+#### MyScores.txt file, where your name and your score is stored
+
+![MyScores](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/myScores.PNG)
+
+
 
