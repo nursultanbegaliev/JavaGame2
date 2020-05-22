@@ -1,6 +1,56 @@
 # Brick Breaker
 Java project for CS102
 
+![image com science department](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/comsiencedepartment.png)
+
+# Project Proposal
+
+### Title of the project 
+**Brick Breaker**
+
+### Topic addressed by the project
+
+Creating game, entertainment.
+
+### Background
+
+This is my first essential java project. It was very interesting to discover 
+new features of java, like swing api and creating games with it. 
+I was interesting with creating game, that's why I decided to choose this very topic.
+
+### Aim of the project
+
+For contributors game. 
+For me expirience.
+
+### Objectives of the project
+
+I acquire lot of knowledge from this project. I learned how to use swing api, reading and writing into the files and using object oriented programming. 
+
+### Expected outcomes
+
+Good emotions and relaxing
+
+### Proposed activities 
+
+Update codes and make a good presentation.
+
+### Estimate budget
+
+Free
+
+### Proposed partners
+
+Nobody
+
+### Contact person
+
+Name: Nursultan
+
+Surname: Begaliev 
+
+email: nursultan.begaliev@iaau.edu.kg
+
 ## Made by:
 * Nursultan Begaliev
 
