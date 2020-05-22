@@ -49,6 +49,8 @@ Surname: Begaliev
 
 email: nursultan.begaliev@iaau.edu.kg
 
+phone: 0505230701 W/A
+
 
 
 ## Description 
@@ -69,7 +71,7 @@ Was 21 brick 3 row 7 column, become 32 brincks 4 row 8 column
 
 ![input your name](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/Terminal_1.PNG)
 
-#### Here is game
+#### Here is the game
 
 ![game appeared](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/Terminal_2.PNG)
 
@@ -82,6 +84,16 @@ Was 21 brick 3 row 7 column, become 32 brincks 4 row 8 column
 #### MyScores.txt file, where your name and your score is stored
 
 ![MyScores](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/myScores.PNG)
+
+#### How I make to store name and score
+Inorder to save your name you have to write you name in terminal. And here is a code. Here you also can see Exeption handling( If input will be unacceptable). 
+
+![code for writing name](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/myScoreProof_2Main.PNG)
+
+
+Inorder to save score I use Button _Enter_ in class GamePlay.java
+
+![Save score](https://github.com/nursultanbegaliev/JavaGame2/blob/master/Github/myScoreProof.PNG)
 
 
 
